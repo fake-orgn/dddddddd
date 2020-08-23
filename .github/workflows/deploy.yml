@@ -7,7 +7,13 @@ on:
 jobs:
   Publish:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: /home/runner/work/dddddddd
+        
     steps:
+    - name: use action/checkout@v2 
+      uses: actions/checkout@v2
     - name: Pushes to another repository
       uses: cpina/github-action-push-to-another-repository@master
       env:
