@@ -16,4 +16,4 @@ jobs:
         source-directory: 'src'
         destination-github-username: 'fake-orgn'
         destination-repository-name: 'new'
-        user-email: mohan@mohan.com
+        user-email: tmohansk@gmail.com
